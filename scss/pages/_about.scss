@@ -1,0 +1,33 @@
+.main-1 {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  padding: 1rem;
+  .left {
+    padding: 1rem 3rem;
+    h3 {
+      margin-bottom: 1rem;
+    }
+    .bg-p {
+      background-color: $bgc-color;
+      padding: 1rem;
+      color: $text-color;
+      margin-top: 1rem;
+    }
+  }
+  .right {
+    height: 30vh;
+    padding: 1rem;
+    background-color: $bgc-color;
+    margin-top: 2px;
+    color: $text-color;
+    h3 {
+      margin-top: 2rem;
+    }
+    p {
+      margin-top: 1rem;
+    }
+  }
+}
+.footer-1 {
+  margin-top: 135px;
+}
