@@ -35,4 +35,67 @@ nav .nav__list .nav__item .nav__link--active {
   color: rgb(146, 15, 107);
 }
 
+.bgi {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background: linear-gradient(rgba(24, 23, 23, 0.3), rgba(17, 17, 17, 0.5)), url("../../images/showcase.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+.bgi h2 {
+  font-size: 2rem;
+  margin-bottom: 3rem;
+  font-weight: 900;
+}
+
+.subscribe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #413f42;
+  padding: 1.5rem;
+  color: #eee;
+}
+.subscribe .newsletter {
+  font-weight: 900;
+  font-size: 1.3rem;
+}
+.subscribe .email {
+  display: flex;
+}
+.subscribe .email input {
+  margin-right: 5px;
+  height: 1.5rem;
+}
+.subscribe .email button {
+  width: 5rem;
+  height: 1.5rem;
+  background-color: #ff652f;
+  color: #eee;
+  border: none;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main .html, .main .design, .main .css {
+  text-align: center;
+  width: 33%;
+  margin-top: 1.5rem;
+}
+.main .html img, .main .design img, .main .css img {
+  width: 15%;
+  margin-bottom: 15px;
+}
+.main .html h2, .main .design h2, .main .css h2 {
+  margin-bottom: 15px;
+}
+
 /*# sourceMappingURL=style.css.map */

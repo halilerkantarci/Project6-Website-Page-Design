@@ -1,0 +1,63 @@
+.bgi {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background: linear-gradient(rgba(24, 23, 23, 0.3), rgba(17, 17, 17, 0.5)),
+    url("../../images/showcase.jpg");
+  background-size: cover;
+  background-position: center center;
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    font-weight: 900;
+  }
+}
+.subscribe {
+  @include hiza();
+  justify-content: space-between;
+  background-color: $bgc-color;
+  padding: 1.5rem;
+  color: $text-color;
+  .newsletter {
+    font-weight: 900;
+    font-size: 1.3rem;
+  }
+  .email {
+    display: flex;
+    input {
+      margin-right: 5px;
+      height: 1.5rem;
+    }
+    button {
+      width: 5rem;
+      height: 1.5rem;
+      background-color: $btn-bgc;
+      color: $text-color;
+      border: none;
+    }
+  }
+}
+.main {
+  @include hiza();
+  .html {
+    text-align: center;
+    width: 33%;
+    margin-top: 1.5rem;
+    img {
+      width: 15%;
+      margin-bottom: 15px;
+    }
+    h2 {
+      margin-bottom: 15px;
+    }
+  }
+  .css {
+    @extend .html;
+  }
+  .design {
+    @extend .html;
+  }
+}
