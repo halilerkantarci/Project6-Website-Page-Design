@@ -4,6 +4,19 @@
   box-sizing: border-box;
 }
 
+footer {
+  background-color: #413f42;
+  padding: 1rem;
+  text-align: center;
+  margin-top: 3rem;
+}
+footer p {
+  color: #eee;
+}
+footer img {
+  height: 5vh;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
