@@ -1,0 +1,30 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #413f42;
+  padding: 1.2rem;
+  border-bottom: 3px solid rgb(146, 15, 107);
+  .clarusway {
+    font-size: 2rem;
+    color: beige;
+    font-weight: 700;
+    span {
+      color: rgb(146, 15, 107);
+    }
+  }
+  .nav__list {
+    display: flex;
+    list-style-type: none;
+    .nav__item {
+      margin-left: 25px;
+      font-size: 1.5rem;
+      a {
+        text-decoration: none;
+        color: white;
+      }
+      .nav__link--active {
+        color: rgb(146, 15, 107);
+      }
+    }
+  }
+}

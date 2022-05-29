@@ -1,3 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #413f42;
+  padding: 1.2rem;
+  border-bottom: 3px solid rgb(146, 15, 107);
+}
+nav .clarusway {
+  font-size: 2rem;
+  color: beige;
+  font-weight: 700;
+}
+nav .clarusway span {
+  color: rgb(146, 15, 107);
+}
+nav .nav__list {
+  display: flex;
+  list-style-type: none;
+}
+nav .nav__list .nav__item {
+  margin-left: 25px;
+  font-size: 1.5rem;
+}
+nav .nav__list .nav__item a {
+  text-decoration: none;
+  color: white;
+}
+nav .nav__list .nav__item .nav__link--active {
+  color: rgb(146, 15, 107);
+}
 
 /*# sourceMappingURL=style.css.map */
