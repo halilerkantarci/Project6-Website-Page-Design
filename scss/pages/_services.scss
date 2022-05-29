@@ -1,21 +1,58 @@
 .main-2 {
   display: grid;
-  grid-template-columns: 11fr 1fr;
+  grid-template-columns: 8fr 4fr;
   padding: 1rem;
-  @include hiza();
-  .website-design {
-    background-color: lightgray;
-    padding: 1rem;
-    margin-top: 1rem;
-    margin-left: 1.5rem;
-    h3 {
-      margin-top: 1rem;
+  gap: 2rem;
+  height: 75vh;
+  .left {
+    h4 {
+      font-size: 20px;
+      margin-left: 1.5rem;
     }
-    p {
-      margin-top: 1rem;
+    .website-design {
+      background-color: lightgray;
+      padding: 1.5rem 1rem;
+      margin-top: 0.8rem;
+      margin-left: 1.5rem;
+
+      h3 {
+        margin-top: 1rem;
+      }
+      p {
+        margin-top: 1rem;
+      }
+    }
+    .website-maintenance {
+      @extend .website-design;
+    }
+    .website-hosting {
+      @extend .website-design;
     }
   }
-  .website-maintenance {
-    @extend .website-design;
+  .right {
+    background-color: $bgc-color;
+    padding: 1rem;
+    color: $text-color;
+    height: 52vh;
+    h3 {
+      margin: 2rem 0;
+    }
+    input {
+      width: 90%;
+      height: 2rem;
+    }
+    label {
+      display: block;
+    }
+    textarea {
+      width: 90%;
+    }
+    button {
+      width: 4.5rem;
+      height: 2rem;
+      background-color: $btn-bgc;
+      color: $text-color;
+      border: none;
+    }
   }
 }
