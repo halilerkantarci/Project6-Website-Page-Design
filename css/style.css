@@ -145,5 +145,25 @@ nav .nav__list .nav__item .nav__link--active {
 .main .html h2, .main .design h2, .main .css h2 {
   margin-bottom: 15px;
 }
+.main-2 {
+  display: grid;
+  grid-template-columns: 11fr 1fr;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-2 .website-design, .main-2 .website-maintenance {
+  background-color: lightgray;
+  padding: 1rem;
+  margin-top: 1rem;
+  margin-left: 1.5rem;
+}
+.main-2 .website-design h3, .main-2 .website-maintenance h3 {
+  margin-top: 1rem;
+}
+.main-2 .website-design p, .main-2 .website-maintenance p {
+  margin-top: 1rem;
+}
 
 /*# sourceMappingURL=style.css.map */
